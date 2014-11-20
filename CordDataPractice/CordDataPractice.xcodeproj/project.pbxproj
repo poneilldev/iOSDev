@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DACCCD191A1458AA0002A8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCCD181A1458AA0002A8BE /* AppDelegate.swift */; };
+		DACCCD1C1A1458AA0002A8BE /* CordDataPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DACCCD1A1A1458AA0002A8BE /* CordDataPractice.xcdatamodeld */; };
+		DACCCD1E1A1458AA0002A8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCCD1D1A1458AA0002A8BE /* ViewController.swift */; };
+		DACCCD211A1458AA0002A8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACCCD1F1A1458AA0002A8BE /* Main.storyboard */; };
+		DACCCD231A1458AA0002A8BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACCCD221A1458AA0002A8BE /* Images.xcassets */; };
+		DACCCD261A1458AA0002A8BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACCCD241A1458AA0002A8BE /* LaunchScreen.xib */; };
+		DACCCD321A1458AA0002A8BE /* CordDataPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCCD311A1458AA0002A8BE /* CordDataPracticeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DACCCD2C1A1458AA0002A8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACCCD0B1A1458AA0002A8BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACCCD121A1458AA0002A8BE;
+			remoteInfo = CordDataPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DACCCD131A1458AA0002A8BE /* CordDataPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CordDataPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACCCD171A1458AA0002A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACCCD181A1458AA0002A8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DACCCD1B1A1458AA0002A8BE /* CordDataPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CordDataPractice.xcdatamodel; sourceTree = "<group>"; };
+		DACCCD1D1A1458AA0002A8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACCCD201A1458AA0002A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DACCCD221A1458AA0002A8BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DACCCD251A1458AA0002A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DACCCD2B1A1458AA0002A8BE /* CordDataPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CordDataPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACCCD301A1458AA0002A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACCCD311A1458AA0002A8BE /* CordDataPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordDataPracticeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACCCD101A1458AA0002A8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACCCD281A1458AA0002A8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DACCCD0A1A1458AA0002A8BE = {
+			isa = PBXGroup;
+			children = (
+				DACCCD151A1458AA0002A8BE /* CordDataPractice */,
+				DACCCD2E1A1458AA0002A8BE /* CordDataPracticeTests */,
+				DACCCD141A1458AA0002A8BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACCCD141A1458AA0002A8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACCCD131A1458AA0002A8BE /* CordDataPractice.app */,
+				DACCCD2B1A1458AA0002A8BE /* CordDataPracticeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACCCD151A1458AA0002A8BE /* CordDataPractice */ = {
+			isa = PBXGroup;
+			children = (
+				DACCCD181A1458AA0002A8BE /* AppDelegate.swift */,
+				DACCCD1D1A1458AA0002A8BE /* ViewController.swift */,
+				DACCCD1F1A1458AA0002A8BE /* Main.storyboard */,
+				DACCCD221A1458AA0002A8BE /* Images.xcassets */,
+				DACCCD241A1458AA0002A8BE /* LaunchScreen.xib */,
+				DACCCD1A1A1458AA0002A8BE /* CordDataPractice.xcdatamodeld */,
+				DACCCD161A1458AA0002A8BE /* Supporting Files */,
+			);
+			path = CordDataPractice;
+			sourceTree = "<group>";
+		};
+		DACCCD161A1458AA0002A8BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACCCD171A1458AA0002A8BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DACCCD2E1A1458AA0002A8BE /* CordDataPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DACCCD311A1458AA0002A8BE /* CordDataPracticeTests.swift */,
+				DACCCD2F1A1458AA0002A8BE /* Supporting Files */,
+			);
+			path = CordDataPracticeTests;
+			sourceTree = "<group>";
+		};
+		DACCCD2F1A1458AA0002A8BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACCCD301A1458AA0002A8BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACCCD121A1458AA0002A8BE /* CordDataPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACCCD351A1458AA0002A8BE /* Build configuration list for PBXNativeTarget "CordDataPractice" */;
+			buildPhases = (
+				DACCCD0F1A1458AA0002A8BE /* Sources */,
+				DACCCD101A1458AA0002A8BE /* Frameworks */,
+				DACCCD111A1458AA0002A8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CordDataPractice;
+			productName = CordDataPractice;
+			productReference = DACCCD131A1458AA0002A8BE /* CordDataPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DACCCD2A1A1458AA0002A8BE /* CordDataPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACCCD381A1458AA0002A8BE /* Build configuration list for PBXNativeTarget "CordDataPracticeTests" */;
+			buildPhases = (
+				DACCCD271A1458AA0002A8BE /* Sources */,
+				DACCCD281A1458AA0002A8BE /* Frameworks */,
+				DACCCD291A1458AA0002A8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACCCD2D1A1458AA0002A8BE /* PBXTargetDependency */,
+			);
+			name = CordDataPracticeTests;
+			productName = CordDataPracticeTests;
+			productReference = DACCCD2B1A1458AA0002A8BE /* CordDataPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACCCD0B1A1458AA0002A8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paul O'Neill";
+				TargetAttributes = {
+					DACCCD121A1458AA0002A8BE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DACCCD2A1A1458AA0002A8BE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DACCCD121A1458AA0002A8BE;
+					};
+				};
+			};
+			buildConfigurationList = DACCCD0E1A1458AA0002A8BE /* Build configuration list for PBXProject "CordDataPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACCCD0A1A1458AA0002A8BE;
+			productRefGroup = DACCCD141A1458AA0002A8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACCCD121A1458AA0002A8BE /* CordDataPractice */,
+				DACCCD2A1A1458AA0002A8BE /* CordDataPracticeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACCCD111A1458AA0002A8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCCD211A1458AA0002A8BE /* Main.storyboard in Resources */,
+				DACCCD261A1458AA0002A8BE /* LaunchScreen.xib in Resources */,
+				DACCCD231A1458AA0002A8BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACCCD291A1458AA0002A8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACCCD0F1A1458AA0002A8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCCD1E1A1458AA0002A8BE /* ViewController.swift in Sources */,
+				DACCCD1C1A1458AA0002A8BE /* CordDataPractice.xcdatamodeld in Sources */,
+				DACCCD191A1458AA0002A8BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACCCD271A1458AA0002A8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCCD321A1458AA0002A8BE /* CordDataPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DACCCD2D1A1458AA0002A8BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACCCD121A1458AA0002A8BE /* CordDataPractice */;
+			targetProxy = DACCCD2C1A1458AA0002A8BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DACCCD1F1A1458AA0002A8BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCCD201A1458AA0002A8BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DACCCD241A1458AA0002A8BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCCD251A1458AA0002A8BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACCCD331A1458AA0002A8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DACCCD341A1458AA0002A8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACCCD361A1458AA0002A8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CordDataPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DACCCD371A1458AA0002A8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CordDataPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DACCCD391A1458AA0002A8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CordDataPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CordDataPractice.app/CordDataPractice";
+			};
+			name = Debug;
+		};
+		DACCCD3A1A1458AA0002A8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CordDataPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CordDataPractice.app/CordDataPractice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACCCD0E1A1458AA0002A8BE /* Build configuration list for PBXProject "CordDataPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCCD331A1458AA0002A8BE /* Debug */,
+				DACCCD341A1458AA0002A8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACCCD351A1458AA0002A8BE /* Build configuration list for PBXNativeTarget "CordDataPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCCD361A1458AA0002A8BE /* Debug */,
+				DACCCD371A1458AA0002A8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DACCCD381A1458AA0002A8BE /* Build configuration list for PBXNativeTarget "CordDataPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCCD391A1458AA0002A8BE /* Debug */,
+				DACCCD3A1A1458AA0002A8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DACCCD1A1A1458AA0002A8BE /* CordDataPractice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DACCCD1B1A1458AA0002A8BE /* CordDataPractice.xcdatamodel */,
+			);
+			currentVersion = DACCCD1B1A1458AA0002A8BE /* CordDataPractice.xcdatamodel */;
+			path = CordDataPractice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DACCCD0B1A1458AA0002A8BE /* Project object */;
+}
